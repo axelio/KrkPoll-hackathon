@@ -12,7 +12,7 @@ namespace KrkPoll.Data.Models
         public string Description { get; set; }
         public List<Question> Questions { get; set; }
         public List<DiscussionPost> DiscussionPosts { get; set; }
-        //poll can be created only by officials - role based authorization
+        //TODO poll can be created only by officials - role based authorization
         public ApplicationUser Author { get; set; }
         public string ApplicationUserId { get; set; }
     }
